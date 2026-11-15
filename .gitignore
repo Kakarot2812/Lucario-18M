@@ -1,0 +1,35 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Model Checkpoints & Weights (hosted on Hugging Face Spaces)
+checkpoints/
+*.pt
+*.pth
+*.safetensors
+*.bin
+
+# Dataset & Hugging Face Caches
+data_cache/
+.cache/
+*.arrow
+
+# Scratch, Legacy & Audit Scripts
+_legacy/
+audit_sft.py
+eval_zero_train_boost.py
+
+# macOS & IDE Metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+.vscode/
+.idea/
