@@ -1,13 +1,3 @@
----
-title: Lucario-18M
-emoji: ⚡
-colorFrom: blue
-colorTo: indigo
-sdk: gradio
-app_file: app.py
-pinned: false
----
-
 # ModernLLM-GQA (18.57M Decoder-Only Transformer from Scratch)
 
 A compact, modern decoder-only Transformer built from scratch in PyTorch—featuring **Grouped-Query Attention (8Q / 2KV)**, **Rotary Position Embeddings (RoPE)**, **RMSNorm**, **SwiGLU**, **weight tying**, and **compact KV caching**—pretrained on **FineWeb-Edu** and supervised fine-tuned (SFT) on **Alpaca-Cleaned** with **15% pretraining replay** and **2,500 concise/arithmetic curriculum pairs**.
