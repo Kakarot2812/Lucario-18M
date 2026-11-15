@@ -1,8 +1,18 @@
+---
+title: Lucario-18M
+emoji: ⚡
+colorFrom: blue
+colorTo: indigo
+sdk: gradio
+app_file: app.py
+pinned: false
+---
+
 # ModernLLM-GQA (18.57M Decoder-Only Transformer from Scratch)
 
 A compact, modern decoder-only Transformer built from scratch in PyTorch—featuring **Grouped-Query Attention (8Q / 2KV)**, **Rotary Position Embeddings (RoPE)**, **RMSNorm**, **SwiGLU**, **weight tying**, and **compact KV caching**—pretrained on **FineWeb-Edu** and supervised fine-tuned (SFT) on **Alpaca-Cleaned** with **15% pretraining replay** and **2,500 concise/arithmetic curriculum pairs**.
 
-**Live Demo:** [Hugging Face Space (`kakarot2812/modern-llm-from-scratch`)](https://kakarot2812-modern-llm-from-scratch.hf.space)
+**Live Demo:** [Hugging Face Space (`Kakarot2812/Lucario-18M`)](https://kakarot2812-lucario-18m.hf.space)
 
 ---
 
@@ -35,7 +45,7 @@ Evaluated deterministically (`temp = 0.0`, `rep_penalty = 1.15`, `no_repeat_ngra
 
 ### 1. Clone & Install
 ```bash
-git clone [https://github.com/Kakarot2812/Modern_llm_from_scratch.git](https://github.com/Kakarot2812/Modern_llm_from_scratch.git)
+git clone [https://github.com/Kakarot2812/Lucario-18M.git](https://github.com/Kakarot2812/Lucario-18M.git)
 cd Modern_llm_from_scratch
 python3 -m venv .venv && source .venv/bin/activate
 pip install torch tiktoken datasets transformers gradio huggingface_hub
